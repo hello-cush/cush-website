@@ -23,7 +23,7 @@ else
  echo “Not deploying”
  exit
 fi
-S3_BUCKET=“bruinmeet-web-$NODE_ENV”
+S3_BUCKET=“cush-web-$NODE_ENV”
 echo “Deploying to the $S3_BUCKET bucket”
 
 pip install awscli --upgrade --user
